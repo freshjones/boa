@@ -223,7 +223,7 @@ up_finish ()
   echo
   if [ "$ifauto" = "auto" ] || [ "$_NEEDS_UPDATE" = "YES" ] ; then
     rm -f /var/backups/BOA.sh.txt-*
-    curl -s --retry 10 --retry-delay 5 -A iCab "http://files.aegir.cc/BOA.sh.txt" -o /var/backups/BOA.sh.txt-$_NOW
+    curl -s --retry 10 --retry-delay 5 -A iCab "https://raw.githubusercontent.com/freshjones/boa/master/BOA.sh.txt" -o /var/backups/BOA.sh.txt-$_NOW
     exec bash /var/backups/BOA.sh.txt-$_NOW &> /dev/null
     rm -f /var/backups/BOA.sh.txt-$_NOW
   fi

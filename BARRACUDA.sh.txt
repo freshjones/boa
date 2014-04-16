@@ -44,7 +44,7 @@
 ###
 ### Enter your valid e-mail address below.
 ###
-_MY_EMAIL="notify@omega8.cc"
+_MY_EMAIL="billy@freshjones.com"
 
 
 ###----------------------------------------###
@@ -85,7 +85,7 @@ _MY_EMAIL="notify@omega8.cc"
 ###
 ### To disable, change this to NO below.
 ###
-_EASY_PUBLIC=YES
+_EASY_PUBLIC=NO
 
 ###
 ### Please enter your FQDN hostname below.
@@ -294,7 +294,7 @@ _PHP_CLI_VERSION=5.3
 ### list once it is already installed, will
 ### NOT uninstall anything.
 ###
-_XTRAS_LIST="PDS CSF CHV FTP"
+_XTRAS_LIST="PDS CSF CHV FTP SR4 WMN CSS"
 
 
 ###----------------------------------------###
@@ -783,7 +783,7 @@ _STRONG_PASSWORDS=NO
 ### of some conflicts due to the aggressive
 ### Barracuda behaviour: apt-get autoremove -y
 ###
-_EXTRA_PACKAGES=""
+_EXTRA_PACKAGES="php5-sybase freetds-dev"
 
 ###
 ### Use YES to avoid overwriting configuration

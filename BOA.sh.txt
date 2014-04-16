@@ -84,8 +84,8 @@ setup ()
     touch /opt/local/bin/.fixed.txt
   fi
   rm -f /opt/local/bin/{barracuda*,boa*,drushextra*,octopus*,randpass*,sqlmagic*,syncpass*,thinkdifferent*}
-  curl -s --retry 10 --retry-delay 5 -A iCab "http://files.aegir.cc/versions/master/aegir/tools/bin/barracuda"      -o /opt/local/bin/barracuda
-  curl -s --retry 10 --retry-delay 5 -A iCab "http://files.aegir.cc/versions/master/aegir/tools/bin/boa"            -o /opt/local/bin/boa
+  curl -s --retry 10 --retry-delay 5 -A iCab "https://raw.githubusercontent.com/freshjones/boa/master/aegir/tools/bin/barracuda"      -o /opt/local/bin/barracuda
+  curl -s --retry 10 --retry-delay 5 -A iCab "https://raw.githubusercontent.com/freshjones/boa/master/aegir/tools/bin/boa"            -o /opt/local/bin/boa
   curl -s --retry 10 --retry-delay 5 -A iCab "http://files.aegir.cc/versions/master/aegir/tools/bin/drushextra"     -o /opt/local/bin/drushextra
   curl -s --retry 10 --retry-delay 5 -A iCab "http://files.aegir.cc/versions/master/aegir/tools/bin/octopus"        -o /opt/local/bin/octopus
   curl -s --retry 10 --retry-delay 5 -A iCab "http://files.aegir.cc/versions/master/aegir/tools/bin/randpass"       -o /opt/local/bin/randpass
